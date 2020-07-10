@@ -3,6 +3,8 @@
 This research was proposed by the informatics laboratories subject from Computers and Telematics Engineering course at the University of Aveiro.
 The purpose was create an LaTeX report in a first interaction, followed by an website based on the report previously created, in a second interaction.
 
+<img align="right" width="195" height="90" src="https://www.sata.pt/sites/default/files/images/MEO_branco_rgb.preview.jpg">
+
 This is the [report](https://github.com/tiagoadonis/MEO_Research/blob/Report/Report-MEO/Report-MEO.pdf) and this the respective [presentation](https://github.com/tiagoadonis/MEO_Research/blob/Report/Presentation/MEO%20(Apresentacao).pdf).
 
 You can see all the data for the [website](https://tiagoadonis.github.io/MEO_Research/) criation on the [master](https://github.com/tiagoadonis/MEO_Research) branch. 
