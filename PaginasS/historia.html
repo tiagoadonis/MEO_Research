@@ -1,0 +1,270 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>MEO</title>
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="icon" href="https://meocloud.pt/static/branding/meocloud/img/favicon.ico">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+		
+		<!-- Bootstrap JavaScript -->
+		<script 
+		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript"
+		src="http://code.highcharts.com/highcharts.js"></script>
+		
+		<!-- Mapas -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css">
+		<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+		
+		<link rel="stylesheet" href="..\Anexos\CSS\styles.css">	
+		
+</head>
+
+<body>
+	
+	<!--  NavBar -->
+	
+	<div class="w3-top">
+	<div class="w3-bar w3-theme">
+	<div class="w3-letra">
+		<a href="..\index.html" class="w3-bar-item w3-button w3-padding-16"><img src="..\Anexos\imagens\MEO-t.png" width="90" height="28" alt=""></a>
+		<a href="historia.html" class="w3-bar-item w3-button w3-padding-16">História</a>
+		<div class="w3-dropdown-hover">
+		<button class="w3-button w3-padding-16"> Serviços <i class="fa fa-caret-down"></i></button>
+		<div class="w3-dropdown-content w3-card-4 w3-bar-block">
+			<a href="serviços.html#televisao" class="w3-bar-item w3-button">Televisão</a>
+			<a href="serviços.html#internet" class="w3-bar-item w3-button">Internet</a>
+			<a href="serviços.html#tele" class="w3-bar-item w3-button">Telefone / Telemóvel</a>
+			<a href="serviços.html#apps" class="w3-bar-item w3-button">Apps MEO</a>
+		</div>
+		</div>
+		<a href="equipamentos.html" class="w3-bar-item w3-button w3-padding-16">Equipamentos</a>
+		<a href="cobertecno.html" class="w3-bar-item w3-button w3-padding-16">Cobertura e Tecnologia</a>
+		<a href="concorrencia.html" class="w3-bar-item w3-button w3-padding-16">Concorrência</a>
+		<a href="altice.html" class="w3-bar-item w3-button w3-padding-16">Altice</a>
+		<a href="acerca.html" class="w3-bar-item w3-button w3-padding-16">Acerca</a>
+		
+		<ul class="w3-bar-item w3-button w3-right">
+			<i><a href="#contactos"><span class="fa fa-info-circle"></a></i>
+		</ul>
+	</div>
+	</div>
+	</div>
+	
+	<br> <br>
+	
+	<!-- História -->
+	
+	<div class="w3-container w3-content w3-padding-64 w3-letra" style="max-width:768px">
+		<h1 class="w3-letra" align="center">História</h1>
+		</br> </br>
+		
+		<div class="w3-bar w3-black">
+			<button class="w3-bar-item w3-button w3-padding-16 w3-teal tablink" onclick="openData(event,'intro')">Datas</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2007')">2007</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2008')">2008</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2009')">2009</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2010')">2010</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2011')">2011</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2012')">2012</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2013')">2013</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2014')">2014</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2015')">2015</button>
+			<button class="w3-bar-item w3-button w3-padding-16 tablink" onclick="openData(event,'2017')">2017</button>
+		</div>
+  
+  
+		<div id="intro" class="w3-container w3-border data">
+			<h2 class="w3-letra">Datas</h2>
+			<p class="w3-letra"></p>
+		</div>
+  
+		<div id="2007" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2007</h2>
+			<p class="w3-letra">Surgimento da MEO através do lançamento do serviço triple play (TV, Net e voz) da 
+			Portugal Telecom (PT).</p>
+			</br>
+			<div align="center">
+				<img src="..\Anexos\imagens\triple_play.png" width="310" height="140">
+			</div>
+			</br>
+		</div>
+
+		<div id="2008" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2008</h2>
+			<p class="w3-letra">A PT lança no mercado a MEO satélite.</p>
+			</br>
+			<div align="center">
+				<img src="..\Anexos\imagens\meo_satelite1.png" width="500" height="375">
+			</div>
+			</br>
+		</div>
+
+		<div id="2009" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2009</h2>
+			<p class="w3-letra">A PT Comunicações anunciou, pouco tempo depois do surgimento das transmissões da TDT, que o 
+			serviço triple-play da MEO está também disponível através da rede de fibra ótica cujas velocidades
+			poderão atingir os 400 Megabits por segundo.</p>
+			</br>
+			
+			<div align="center">
+				<img src="..\Anexos\imagens\meo_fibra.png" width="440" height="160">
+			</div>
+			</br>
+		</div>
+		
+		
+		<div id="2010" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2010</h2>
+			<p class="w3-letra">A MEO superou os 700 mil clientes, chegando assim aos computadores dos seus 
+			usuários.</p>
+			</br>
+			<div align="center">
+				<img src="..\Anexos\imagens\700mil.png" width="300" height="170">
+			</div>
+			</br>
+			
+		</div>
+		
+		<div id="2011" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2011</h2>
+			<p class="w3-letra">A MEO alcançou um milhão de subscritores e foi considerada a melhor marca em Portugal. 
+			Neste mesmo ano é lançada a MEO Go.</p>
+			</br>
+			<div align="center">
+				<img src="..\Anexos\imagens\1_milhao.png" width="405" height="200">
+			</div>
+			</br>
+		</div>
+		
+		<div id="2012" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2012</h2>
+			<p class="w3-letra">Lançamento do serviço MEO Kanal, que permite a criação por parte dos clientes MEO de canais 
+			públicos e privados, consoante a seleção feita pelos mesmos. Lançamento da MEO Cloud, um serviço
+			cloud de 16GB, gratuito para todos, clientes MEO e não cliente MEO. Lançamento da aplicação TMN drive 
+			(atual MEO Drive, espécie de GPS) para smartphones, com tráfego gratuito para os clientes MEO.</p>
+			</br>
+			<div align="center">
+				<img src="..\Anexos\imagens\meo_cloud.png" width="410" height="250">
+			</div>
+			</br>
+		</div>
+		
+		<div id="2013" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2013</h2>
+			<p class="w3-letra">Lançamento do M4O, a primeira oferta de um serviço quadruple play (TV, Net, voz e telemóvel). 
+			Criação da MEO Wallet, uma plataforma de pagamentos eletrónicos para diversas situações do dia
+			a dia. Lançamento da funcionalidade de Gravações Automáticas para clientes MEO, nas suas televisões.</p>
+			</br>
+			<div align="center">
+				<img src="..\Anexos\imagens\M4O.png" width="330" height="260">
+			</div>
+			</br>
+		</div>
+		
+		<div id="2014" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2014</h2>
+			<p class="w3-letra">A marca MEO substituiu a marca TMN, na operação de serviço móveis.</p>
+			</br>
+			<div align="center">
+				<img src="..\Anexos\imagens\tmn_meo.png" width="520" height="230">
+			</div>
+			</br>
+		</div>
+		
+		<div id="2015" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2015</h2>
+			<p class="w3-letra">A Portugal Telecom, informa que aprovou a fusão entre a PT Comunicações (PTC) e a MEO - Serviços 
+			de Comunicações e Multimédia. Os serviços móveis da MEO passaram todos para a PTC (que inclui já
+			os serviços fixos). A partir deste momento a empresa responsável pela gestão do serviço e marca 
+			comercial do grupo Portugal Telecom passa a designar-se de "Meo -Serviços de Comunicação e
+			Multimédia S.A".</p>
+			</br>
+			<div align="center">
+				<img src="..\Anexos\imagens\ptc.png" width="470" height="250">
+			</div>
+			</br>
+		</div>
+		
+		<div id="2017" class="w3-container w3-border data" style="display:none">
+			<h2 class="w3-letra">2017</h2>
+			<p class="w3-letra">Foi anunciado que a marca MEO, assim como a marca Portugal Telecom, irão desaparecer até 
+			ao segundo trimestre de 2018, passando ambas a designar-se "Altice", no âmbito de criação de
+			uma marca única para todos os países onde a Altice está presente.</p>
+			</br>
+			<div align="center">
+				<img src="..\Anexos\imagens\meo_altice.png" width="510" height="290">
+			</div>
+			</br>
+		</div>
+		
+		</br> </br>
+		<div class="w3-panel w3-leftbar">
+		<p><i class="fa fa-quote-left w3-xlarge"></i><br>
+		<i class="w3-serif w3-large">A Meo posiciona-se atualmente no 137º lugar da lista das marcas de 
+		telecomunicações mais valiosas do mundo.</i></p>
+		</div> 
+		
+		</br>
+		<div class="w3-panel w3-rightbar">
+		<p align="right"><i class="fa fa-quote-left w3-xlarge"></i><br>
+		<i class="w3-serif w3-large">A Meo tem mais 3,5 milhões de serviços (móvel, televisão, voz fixa e 
+		internet fixa) que o segundo operador mais bem colocado, a NOS.</i></p>
+		</div> 
+		
+		</br>
+		<div class="w3-panel w3-leftbar">
+		<p><i class="fa fa-quote-left w3-xlarge"></i><br>
+		<i class="w3-serif w3-large">A Meo possui a internet móvel mais rápida de sempre, a chamada 4G+, 
+		com velocidade até 400Mbps, deixando a navegação, os downloads e os uploads ainda mais rápidos.</i></p>
+		</div> 
+
+	<script type="text/javascript" src="..\Anexos\javaS\tab.js"></script>
+
+	</div>
+	
+	<!-- Contactos -->
+	
+	<div class="w3-letra">
+	<div id="contactos" class="w3-row-padding w3-center w3-padding-64">
+		<h1 class="w3-letra" align="center">Contactos:</h1>
+		
+		<ul class="w3-ul" align="center">
+		<li class="w3-large"><i class="fa fa-map-marker"></i> Morada: Av. Fontes Pereira de Melo, 1069-300 Lisboa</li>
+		<li class="w3-large"><i class="fa fa-phone"></i> Telefone: 16200 (apoio ao cliente)</li>
+		</ul>
+	</div>
+	</div>
+	
+	<!-- Mapa -->
+	
+	<div id="oMeuMapa" style="width: 100%; height: 420px"></div>
+		<script type="text/javascript" src="..\Anexos\javaS\mapa.js"></script>
+	
+	<!-- Footer -->
+	<div class="w3-letra">
+	<div class="w3-container w3-black" align="center">
+		<div class="w3-xlarge w3-section">
+			<a href="https://www.facebook.com/meo/" title="Facebook"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+			<a href="https://www.instagram.com/meoinstagram/?hl=pt" title="Instagram"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+			<a href="https://twitter.com/meopt" title="Twitter"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+			<a href="https://www.linkedin.com/company/m-e-o" title="Linkedin"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+			<a href="https://www.youtube.com/user/meo" title="Youtube"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+			<a href="https://forum.meo.pt/" title="MEO Fórum"><i class="fa fa-comments w3-hover-opacity" aria-hidden="true"></i></a>
+		</div>
+		<p>Powered by Duarte Dias & Tiago Dias</p>
+		<a href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Ir para o topo</a>
+	</div>
+	</div>
+	
+</body>
+
+</html>
+

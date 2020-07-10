@@ -1,0 +1,377 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+	<title>MEO</title>
+	
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="icon" href="https://meocloud.pt/static/branding/meocloud/img/favicon.ico">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+		
+		<!-- Bootstrap JavaScript -->
+		<script 
+		src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script type="text/javascript"
+		src="http://code.highcharts.com/highcharts.js"></script>
+		
+		<!-- Mapas -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.2/dist/leaflet.css">
+		<script src="https://unpkg.com/leaflet@1.0.2/dist/leaflet.js"></script>
+		
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+		
+		<link rel="stylesheet" href="Anexos\CSS\styles.css">
+		
+</head>
+
+<body>
+	
+	<!--  NavBar -->
+	
+	<div class="w3-top">
+	<div class="w3-bar w3-theme">
+	<div class="w3-letra">
+		<a href="index.html" class="w3-bar-item w3-button w3-padding-16"><img src="Anexos\imagens\MEO-t.png" width="90" height="28" alt=""></a>
+		<a href="PaginasS\historia.html" class="w3-bar-item w3-button w3-padding-16">História</a>
+		<div class="w3-dropdown-hover">
+		<button class="w3-button w3-padding-16"> Serviços <i class="fa fa-caret-down"></i></button>
+		<div class="w3-dropdown-content w3-card-4 w3-bar-block">
+			<a href="PaginasS\serviços.html#televisao" class="w3-bar-item w3-button">Televisão</a>
+			<a href="PaginasS\serviços.html#internet" class="w3-bar-item w3-button">Internet</a>
+			<a href="PaginasS\serviços.html#tele" class="w3-bar-item w3-button">Telefone / Telemóvel</a>
+			<a href="PaginasS\serviços.html#apps" class="w3-bar-item w3-button">Apps MEO</a>
+		</div>
+		</div>
+		<a href="PaginasS\equipamentos.html" class="w3-bar-item w3-button w3-padding-16">Equipamentos</a>
+		<a href="PaginasS\cobertecno.html" class="w3-bar-item w3-button w3-padding-16">Cobertura e Tecnologia</a>
+		<a href="PaginasS\concorrencia.html" class="w3-bar-item w3-button w3-padding-16">Concorrência</a>
+		<a href="PaginasS\altice.html" class="w3-bar-item w3-button w3-padding-16">Altice</a>
+		<a href="PaginasS\acerca.html" class="w3-bar-item w3-button w3-padding-16">Acerca</a>
+		
+		<ul class="w3-bar-item w3-button w3-right">
+			<i><a href="#contactos"><span class="fa fa-info-circle"></a></i>
+		</ul>
+		
+	</div>
+	</div>
+	</div>
+	
+	<br> <br>
+	
+	<!-- SlideShow -->
+
+	<div class="w3-letra w3-xlarge">
+		<div class="w3-letra">
+		<div class="mySlides w3-display-container w3-center">
+			<img src="Anexos\imagens\meo-w.png" style="width:100%">
+			<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">    
+			</div>
+		</div>
+		<div class="mySlides w3-display-container w3-center">
+			<img src="Anexos\imagens\alticeArena.jpeg" style="width:100%">
+			<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+			  <br>
+			  <div class="w3-container w3-center w3-animate-bottom">
+			  <p><b>Altice Arena</b></p>    
+			  </div>
+			</div>
+		</div>
+		<div class="mySlides w3-display-container w3-center">
+			<img src="Anexos\imagens\pt.jpeg" style="width:100%">
+			<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+			  <br>
+			  <div class="w3-container w3-center w3-animate-bottom">
+			  <p><b>Sede Portugal Telecom</b></p> 
+			  </div>   
+			</div>
+		</div>
+		<div class="mySlides w3-display-container w3-center">
+			<img src="Anexos\imagens\dataCenter.jpeg" style="width:100%">
+			<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+			  <br>
+			  <div class="w3-container w3-center w3-animate-bottom">
+			  <p><b>Data Center PT Covilhã</b></p>
+			  </div>    
+			</div>
+		</div>
+		</div>
+	</div>
+	<!-- História -->
+	
+	<div class="w3-row-padding w3-display-container w3-center w3-padding-64 w3-letra">
+		
+		<a href="PaginasS\historia.html" class="w3-button w3-white w3-border w3-border-black w3-round-large" style="position: absolute; bottom: 17px; right: 17px;">+</a>
+		
+		<h1 class="w3-letra" align="center"><b>História</b></h1>
+			
+		<center>
+		</br></br>
+		<div style="float:left; width:20%">
+			<img src="Anexos\imagens\PT_com.png" width="205" height="115">
+		</div>
+		<div style="float:left; width:20%">
+			<img src="Anexos\imagens\seta.png" width="120" height="105">
+		</div>
+		<div style="float:left; width:20%">
+			<img src="Anexos\imagens\meo_logo.png" width="220" height="80">
+		</div>
+		<div style="float:left; width:20%">
+			<img src="Anexos\imagens\seta.png" width="120" height="105">
+		</div>
+		<div style="float:left; width:20%">
+			<img src="Anexos\imagens\altice_logo.png" width="230" height="130">
+		</div>
+		</center>
+		</br>
+		
+		
+	</div>
+	
+	<!-- Serviços -->
+	
+	<div class="w3-display w3-display-container w3-padding-64 w3-theme-l1 w3-letra">
+		
+		<a href="PaginasS\serviços.html" class="w3-button w3-border w3-border-white w3-round-large" style="position: absolute; bottom: 17px; right: 17px;">+</a>
+		
+		<h1 class="w3-letra" align="center"><b>Serviços</b></h1>
+		</br> </br>
+		
+		<div class="w3-row-padding">
+			<div class="w3-quarter">
+				<div class="w3-card w3-white">
+					<img src="Anexos\imagens\tv.jpg" style="width:100%">
+					<div class="w3-container">
+					<h3 align="center" class="w3-letra">Televisão</h3>
+					<p class="w3-letra w3-justify">Com a televisão da MEO possuiu canais exclusivos de desporto, de lifestyle e de entretenimento
+					com direito a diversão e entretenimento para toda a família, possuindo ainda as melhores funcionalidades 
+					e a melhor experiência.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="w3-quarter">
+				<div class="w3-card w3-white">
+					<img src="Anexos\imagens\net.jpg" style="width:100%">
+					<div class="w3-container">
+					<h3 align="center" class="w3-letra">Internet</h3>
+					<p class="w3-letra w3-justify">A maior velocidade de Internet em casa com a fibra de última geração com a máxima velocidade 24 horas/dia.
+					Possui sugestões para quem quer ainda mais Internet Móvel e é considerada uma marca de confiança.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="w3-quarter">
+				<div class="w3-card w3-white">
+					<img src="Anexos\imagens\telefone.jpg" style="width:100%">
+					<div class="w3-container">
+					<h3 align="center" class="w3-letra">Telefone / Telemóvel</h3>
+					<p class="w3-letra w3-justify">Com o telefone da MEO possui chamadas grátis para redes nacionais e internacionais,
+					contando ainda com telesegurança e teleassistência.​ Nos serviços móveis, possui vários tarifários
+					para todos os gostos e possibilidades.</p>
+					</div>
+				</div>
+			</div>
+			
+			<div class="w3-quarter">
+				<div class="w3-card w3-white">
+					<img src="Anexos\imagens\apps.jpg" style="width:100%">
+					<div class="w3-container">
+					<h3 align="center" class="w3-letra">Apps Meo</h3>
+					<p class="w3-letra w3-justify">A MEO oferece aos seus clientes várias aplicações desenhadas pela própria marca
+					com tráfego grátis. Existindo ainda outras aplicações, como as redes sociais no topo da sua utilização,
+					onde não se gasta nem um byte.</p>		
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<br>
+		
+	</div>
+	
+	<!-- Equipamentos -->
+	
+	<div class="w3-display-container w3-center w3-padding-64 w3-letra">
+		
+		<a href="PaginasS\equipamentos.html" class="w3-button w3-white w3-border w3-border-black w3-round-large" style="position: absolute; bottom: 17px; right: 17px;">+</a>
+		
+		<h1 class="w3-letra" align="center"><b>Equipamentos</b></h1>
+		<h4 class="w3-letra">(Equipamentos disponibilizados)</h4>
+		
+		<div class="w3-row-padding">
+			<div class="w3-third">
+				<img src="Anexos\imagens\comando.png" width="140" height="188">
+				<br> <br>
+				<span class="w3-tag w3-dark-grey w3-round w3-xlarge w3-center">Comando MEO</span>
+			</div>
+			
+			<div class="w3-third">
+				<br> <br> <br> <br> <br>
+				<img src="Anexos\imagens\meobox.png" width="210" height="75">
+				<br> <br>
+				<span class="w3-tag w3-dark-grey w3-round w3-xlarge w3-center">MEO Box</span>
+			</div>
+			
+			<div class="w3-third">
+				<br> <br> 
+				<img src="Anexos\imagens\router.png" width="116" height="142">
+				<br> <br>
+				<span class="w3-tag w3-dark-grey w3-round w3-xlarge w3-center">Router</span>
+			</div>
+		</div>
+		
+		<br>
+		
+	</div>
+	
+	<!-- Tecnologias -->
+	
+	<div class="w3-row-padding w3-padding-64 w3-display-container w3-theme-l1 w3-letra">
+		
+		<a href="PaginasS\cobertecno.html" class="w3-button w3-border w3-border-white w3-round-large" style="position: absolute; bottom: 17px; right: 17px;">+</a>
+		
+		<h1 class="w3-letra" align="center"><b>Cobertura e Tecnologia</b></h1>
+		<div align="center">
+		  <h4 class="w3-letra">(Dados referentes ao pacote M4O)</h4>
+		  <div class="w3-row-padding" style="margin-top:64px">
+			  
+			<!-- 1ª -->
+			<div class="w3-third w3-section">
+			  <ul class="w3-ul w3-white w3-hover-shadow">
+				<li class="w3-black w3-xlarge w3-padding-32">Satélite</li>
+				<li class="w3-padding-16"><b>90</b> Canais</li>
+				<li class="w3-padding-16"><b>até 40</b> Mbps</li>
+				<li class="w3-padding-16"><b>Chamadas Incluídas</b> Redes fixas nacionais</li>
+				<li class="w3-padding-16"><b>1 cartão c/ 500 Mbps</b> Chamadas e SMS incl.</li>
+				<li class="w3-padding-16">
+				  <h2 class="w3-wide">€ 56,99</h2>
+				  <span class="w3-opacity">por mês</span>
+				</li>
+			  </ul>
+			</div>
+			
+			<!-- 2ª -->
+			<div class="w3-third">
+			  <ul class="w3-ul w3-white w3-hover-shadow">
+				<li class="w3-theme-l2">
+					<p class="w3-xlarge w3-padding-16">Fibra</p>
+				</li>
+				<li class="w3-padding-16"><b>200</b> Canais</li>
+				<li class="w3-padding-16"><b>100/100</b> Mbps</li>
+				<li class="w3-padding-16"><b>Chamadas Incluídas</b> Redes fixas nacionais</li>
+				<li class="w3-padding-16"><b>1 cartão c/ 500 Mbps</b> Chamadas e SMS incl.</li>
+				<li class="w3-padding-16">
+				  <h2 class="w3-wide">€ 56,99</h2>
+				  <span class="w3-opacity">por mês</span>
+				</li>
+			  </ul>
+			</div>
+			
+			<!-- 3ª -->
+			<div class="w3-third w3-section">
+			  <ul class="w3-ul w3-white w3-hover-shadow">
+				<li class="w3-black w3-xlarge w3-padding-32">ADSL</li>
+				<li class="w3-padding-16"><b>200</b> Canais</li>
+				<li class="w3-padding-16"><b>até 20</b> Mbps</li>
+				<li class="w3-padding-16"><b>Chamadas Incluídas</b> Redes fixas nacionais</li>
+				<li class="w3-padding-16"><b>1 cartão c/ 500 Mbps</b> Chamadas e SMS incl.</li>
+				<li class="w3-padding-16">
+				  <h2 class="w3-wide">€ 56,99</h2>
+				  <span class="w3-opacity">por mês</span>
+				</li>
+			  </ul>
+			</div>	
+		  </div>
+		</div>
+		
+		<br> <br>
+        
+	</div>
+	
+	<!-- Concorrência -->
+	
+	<div class="w3-row-padding w3-display-container w3-center w3-padding-64 w3-letra">
+		
+		<a href="PaginasS\concorrencia.html" class="w3-button w3-white w3-border w3-border-black w3-round-large" style="position: absolute; bottom: 17px; right: 17px;">+</a>
+		
+		<h1 class="w3-letra" align="center"><b>Concorrência</b></h1>
+		<div align="center">
+		  <h4 class="w3-letra">(Quota do mercado de cada empresa)</h4>
+		</div>
+		<br> <br>
+		<div class="w3-third">
+			<img src="Anexos\imagens\Vodafone.png" width="200" height="200">
+			<br> <br>
+			<span class="w3-tag w3-dark-grey w3-round w3-xlarge w3-center">16.4%</span>
+		</div>
+		<div class="w3-third">
+			<img src="Anexos\imagens\NOS.png" width="280" height="200">
+			<br> <br>
+			<span class="w3-tag w3-dark-grey w3-round w3-xlarge w3-center">39.4%</span>
+		</div>
+		<div class="w3-third">
+			<img src="Anexos\imagens\Nowo.png" width="250" height="200">
+			<br> <br>
+			<span class="w3-tag w3-dark-grey w3-round w3-xlarge w3-center">5.0%</span>
+			<br> <br> <br>
+		</div>
+	</div>
+	
+	<!-- Altice -->
+	
+	<div class="w3-display-container w3-content w3-wide w3-theme-l1 w3-letra" style="max-width:1564px;">
+		
+		<img class="w3-image" src="Anexos\imagens\altice.png">
+		<div class="w3-display-bottomright w3-center w3-padding-large">
+			<p>" As marcas MEO e Portugal Telecom</p><p>passarão ambas a designar-se <b>Altice</b> "</p>
+			<br> <br> <br> 
+		</div>
+		
+		<a href="PaginasS\altice.html" class="w3-button w3-black w3-border w3-border-white w3-round-large" style="position: absolute; bottom: 17px; right: 17px;">+</a>
+		
+	</div>
+	
+	
+	<!-- Contactos -->
+	
+	<div class="w3-letra">
+	<div id="contactos" class="w3-row-padding w3-center w3-padding-64">
+		<h1 class="w3-letra" align="center"><b>Contactos</b></h1>
+		
+		<ul class="w3-ul" align="center">
+		<li class="w3-large"><i class="fa fa-map-marker"></i> Morada: Av. Fontes Pereira de Melo, 1069-300 Lisboa</li>
+		<li class="w3-large"><i class="fa fa-phone"></i> Telefone: 16200 (apoio ao cliente)</li>
+		</ul>
+	</div>
+	</div>
+	
+	<!-- Mapa -->
+	
+	<div id="oMeuMapa" style="width: 100%; height: 420px"></div>
+		<script type="text/javascript" src="Anexos\javaS\mapa.js"></script>
+	
+	<!-- Footer -->
+	<div class="w3-letra">
+	<div class="w3-container w3-black" align="center">
+		<div class="w3-xlarge w3-section">
+			<a href="https://www.facebook.com/meo/" title="Facebook"><i class="fa fa-facebook w3-hover-opacity"></i></a>
+			<a href="https://www.instagram.com/meoinstagram/?hl=pt" title="Instagram"><i class="fa fa-instagram w3-hover-opacity"></i></a>
+			<a href="https://twitter.com/meopt" title="Twitter"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+			<a href="https://www.linkedin.com/company/m-e-o" title="Linkedin"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+			<a href="https://www.youtube.com/user/meo" title="Youtube"><i class="fa fa-youtube w3-hover-opacity"></i></a>
+			<a href="https://forum.meo.pt/" title="MEO Fórum"><i class="fa fa-comments w3-hover-opacity" aria-hidden="true"></i></a>
+		</div>
+		<p class="w3-letra">Powered by Duarte Dias & Tiago Dias</p>
+		<a href="#" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>Ir para o topo</a>
+	</div>
+	</div>
+	
+	<!-- SlideShow -->
+	<script type="text/javascript" src="Anexos\javaS\slideS.js"></script>
+	
+</body>
+
+</html>
