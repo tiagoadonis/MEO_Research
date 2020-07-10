@@ -1,0 +1,153 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {portuguese}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{i}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{i}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{i}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{i}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introdu\IeC {\c c}\IeC {\~a}o}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{1}{section*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{1}{section*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{1}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{1}{section*.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{1}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Hist\IeC {\'o}ria}{2}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Curiosidade:}{3}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{3}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Servi\IeC {\c c}os}{4}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Televis\IeC {\~a}o}{4}{section.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{4}{section*.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}\textit {Internet}}{4}{section.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{4}{section*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{4}{section*.15}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{5}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Telefone / Telem\IeC {\'o}vel}{5}{section.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{5}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{5}{section*.18}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{5}{section*.19}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{5}{section*.20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Apps MEO}{6}{section.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{MEO Kanal:}{6}{section*.21}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{6}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{MEO Music:}{6}{section*.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{6}{section*.24}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{MEO Smart Home:}{6}{section*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{6}{section*.26}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{6}{section*.27}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Equipamento}{7}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{7}{section*.28}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Rede sat\IeC {\'e}lite:}{7}{section*.29}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{7}{section*.30}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{7}{section*.31}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{8}{section*.32}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\textit {ADSL}:}{8}{section*.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{8}{section*.34}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{8}{section*.35}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{8}{section*.36}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{9}{section*.37}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fibra \IeC {\'O}tica:}{9}{section*.38}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{9}{section*.39}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{9}{section*.40}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Resumo das liga\IeC {\c c}\IeC {\~o}es de todos os tipos da MEO:}{10}{section*.41}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Exemplo de uma MEOBox (Motorola VIP1200 Serie):}{10}{section*.42}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{10}{section*.43}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{11}{section*.44}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Cobertura e Tecnologias}{12}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{12}{section*.45}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {6}Concorr\IeC {\^e}ncia}{14}{chapter.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{14}{section*.46}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{14}{section*.47}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{15}{section*.48}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {7}Altice}{16}{chapter.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{16}{section*.49}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{}{16}{section*.50}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{IPTV}{17}{section*.52}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{EPG}{17}{section*.53}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ADSL}{17}{section*.54}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{FTTH}{17}{section*.55}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{PIN}{17}{section*.56}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ANACOM}{17}{section*.57}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{SMS}{17}{section*.58}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{LNB}{17}{section*.59}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{HDMI}{17}{section*.60}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{SCART}{17}{section*.61}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{RJ}{17}{section*.62}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{ONT}{17}{section*.63}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{DVR}{17}{section*.64}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{DTH}{17}{section*.65}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{PT}{17}{section*.66}

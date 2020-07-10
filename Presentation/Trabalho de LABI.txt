@@ -1,0 +1,15 @@
+TEMA: APRESENTAÇÃO DA MEO
+Grupo 3
+
+Trabalho LABI:
+
+-Textos objetivos;
+-Explicar as coisas e usar referências (entre aspas e indicar a fonte);
+-Nada de opinião pessoal;
+-3/4 páginas; 
+-Imagens exemplificativas;
+-Linguagem formal;
+-Sem palavras "caras";
+-Definir estrutura (indice);
+
+Ver "The Not So Short Introduction to Latex File"

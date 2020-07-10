@@ -1,0 +1,21 @@
+O objetivo deste trabalho é a concretização de um relatório técnico, realizado através da ferramenta LaTeX e utilizando a plataforma CodeUA (Tarefas + GIT).
+
+Regras aplicáveis:
+
+-O relatório deverá seguir obrigatoriamente a estrutura estudada nas aulas. É fornecido um ficheiro de exemplo que pode ser utilizado como base.
+-Além figuras, tabelas, referências internas e citações para as fontes de informação, o relatório deverá possuir um mínimo de 4000 palavras.
+-O tema é livre. Os alunos podem abordar qualquer tema que considerem de interesse.
+-O relatório deve incluir uma secção onde se indica de forma clara (em percentagem) qual a contribuição de cada membro do grupo.
+-O desenvolvimento do relatório deverá ser suportado por um repositório GIT do CodeUA. Ao utilizar a ferramenta GIT é esperado que os ficheiros que compõem o relatório sejam atualizados de forma frequente para o repositório. Os alunos deverão utilizar um dos projetos já criados durante as aulas.
+-As tarefas devem ser planeadas, atribuídas e fechadas.
+-A avaliação irá focar-se na estrutura, escrita e colaboração entre membros do grupo.
+-Os grupos devem ter 2 alunos.
+-A incorporação de frases, parágrafos, imagens ou outros conteúdos de autores externos, sem que seja feita a devida atribuição é considerado plágio. O trabalho não será avaliado e os docentes irão agir de acordo com o Artigo 30º, ponto 11 do Regulamento de Estudos da UA.
+
+
+Entrega:
+
+-Submeta apenas 1 arquivo .ZIP, .TGZ (tar comprimido com gzip) ou .TBZ (tar comprimido com bzip2) contendo todos os ficheiros fonte utilizados (.tex, .bib, etc...), assim como o PDF final.
+-O trabalho deve ser submetido por apenas 1 membro do grupo.
+-Confirme que respondeu ao inquérito de registo de grupo.
+-Entregas fora de prazo serão penalizadas.
