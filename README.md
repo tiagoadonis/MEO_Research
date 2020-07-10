@@ -5,5 +5,4 @@ The purpose was create an LaTeX report in a first interaction, followed by an we
 
 This is the [report](https://github.com/tiagoadonis/MEO_Research/blob/Report/Report-MEO/Report-MEO.pdf) and this the respective [presentation](https://github.com/tiagoadonis/MEO_Research/blob/Report/Presentation/MEO%20(Apresentacao).pdf).
 
-You can see all the data for the website criation on the [master](https://github.com/tiagoadonis/MEO_Research) branch. 
-[here](https://tiagoadonis.github.io/MEO_Research/).
+You can see all the data for the [website](https://tiagoadonis.github.io/MEO_Research/) criation on the [master](https://github.com/tiagoadonis/MEO_Research) branch. 
